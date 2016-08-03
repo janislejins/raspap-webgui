@@ -69,7 +69,7 @@ function download_latest_files() {
     fi
 
     install_log "Cloning latest files from github"
-    sudo git clone https://github.com/billz/raspap-webgui "$webroot_dir" || install_error "Unable to download files from github"
+    sudo git clone https://github.com/janislejins/raspap-webgui.git "$webroot_dir" || install_error "Unable to download files from github"
 }
 
 # Sets files ownership in web root directory
